@@ -1,0 +1,46 @@
+:root {
+  --background-color: ;
+  --primary-color: skyblue;
+  --secondary-color: whitesmoke;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+}
+
+input,
+button,
+select {
+  border: none;
+  outline: none;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0px 10px;
+}
+
+/*Dont Change */
+
+/* global flex styles*/
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}

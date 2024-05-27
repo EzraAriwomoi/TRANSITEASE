@@ -1,0 +1,84 @@
+.mode-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mode-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .mode-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mode-form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .mode-form input,
+  .mode-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .transport-modes {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+  }
+  
+  .transport-modes button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #ddd;
+    font-size: 16px;
+  }
+  
+  .transport-modes button.selected {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .fetch-routes-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .fetch-routes-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .routes-display {
+    margin-top: 20px;
+  }
+  
+  .route-details {
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,39 @@
+.receipt-page {
+  height: 93vh;
+  width: 100%;
+  background-color: white;
+}
+
+.rp-details {
+  height: 60%;
+  width: 50%;
+}
+
+.rp-details > ul {
+  list-style-type: none;
+  height: 80%;
+  width: 100%;
+}
+
+.rp-details > ul > li {
+  width: 100%;
+  padding: 20px 20px;
+  background-color: whitesmoke;
+}
+
+.rp-details > section {
+  width: 100%;
+  height: 15%;
+  background-color: var(--primary-color);
+}
+
+.rp-details > section > button {
+  width: 40%;
+  height: 40px;
+}
+
+.rp-details > span {
+  color: #1c1c1c;
+  padding: 10px;
+  margin: 5px;
+}

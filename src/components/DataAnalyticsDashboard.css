@@ -1,0 +1,43 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+}
+
+.dashboard-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.dashboard-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.dashboard-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.dashboard-card h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #007bff;
+}
+
+.dashboard-card canvas {
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .dashboard-card {
+        width: 100%;
+    }
+}

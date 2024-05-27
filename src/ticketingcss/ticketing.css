@@ -1,0 +1,96 @@
+.ticketing-page {
+  width: 100vw;
+  height: 90vh;
+  background-color: var(--background-color);
+  gap: 8px;
+}
+
+.tp-details {
+  height: 10%;
+  width: 66%;
+  background-color: whitesmoke;
+  margin-bottom: 10px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  background-color: var(--secondary-color);
+  box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.2);
+}
+
+.tp-details span {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.tp-inputs {
+  height: 40vh;
+  width: 66%;
+  background-color: whitesmoke;
+  gap: 8;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.2);
+}
+
+.tp-inputs > div {
+  width: 50%;
+  height: 25%;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 3px;
+}
+
+.tp-inputs > div > label {
+  margin: 5px 0px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.654);
+}
+
+.tp-inputs>div >input {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0.4px solid rgba(128, 128, 128, 0.551);
+}
+
+.tp-inputs>div >select {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0.4px solid rgba(128, 128, 128, 0.551);
+}
+
+.tp-seats {
+  height: 50%;
+  width: 66%;
+  background-color: whitesmoke;
+}
+
+.tp-goto-pay {
+  height: 25%;
+  width: 66%;
+  background-color: whitesmoke;
+  gap: 8px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.2);
+  margin: 10px 0px;
+}
+
+.tp-goto-pay > section {
+  width: 50%;
+  height: 30%;
+  color: rgba(0, 0, 0, 0.654);
+}
+
+/* .tp-goto-pay > section > span {
+  font-weight: 900;
+} */
+
+.tp-goto-pay > section > span > em {
+  color: darkgreen;
+}
+
+.tp-goto-pay > button {
+  width: 40%;
+  background-color: var(--primary-color);
+}

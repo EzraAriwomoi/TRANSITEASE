@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport Modes</title>
+</head>
+<body>
+    <h1>Transport Modes</h1>
+    <div id="modes"></div>
+    <div id="feed"></div>
+
+    <script>
+        async function fetchModes() {
+            const response = await fetch('/transportmodes/modes');
+            const data = await response.json();
+            document.getElementById('modes').innerHTML = JSON.stringify(data);
+        }
+
+        async function fetchFeed() {
+            const response = await fetch('/transportmodes/feed');
+            const data = await response.json();
+            document.getElementById('feed').innerHTML = JSON.stringify(data);
+        }
+
+        fetchModes();
+        fetchFeed();
+    </script>
+</body>
+</html>

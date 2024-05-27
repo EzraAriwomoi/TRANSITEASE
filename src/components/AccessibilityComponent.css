@@ -1,0 +1,31 @@
+:root {
+    --bg-color: white;
+    --text-color: black;
+}
+
+[data-theme='high-contrast'] {
+    --bg-color: black;
+    --text-color: yellow;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: var(--font-size);
+}
+
+button:focus, a:focus {
+    outline: 2px solid blue;
+}
+
+.accessibility-container {
+    padding: 20px;
+}
+
+.font-size-controls {
+    margin: 10px 0;
+}
+
+.assistance {
+    margin: 20px 0;
+}

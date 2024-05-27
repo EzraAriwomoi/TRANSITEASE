@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* info */
+
+.info-container {
+  width: 66%;
+  height: 90vh;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+}
+
+.sub-info-container .info {
+  width: 50%;
+  float: left;
+}
+
+.sub-info-container .info h1 {
+  font-size: 47px;
+  margin: 0 0 10px;
+  line-height: 1.1;
+  color: #0080ff;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.sub-info-container .info p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.sub-info-container .info button {
+  border: 0;
+  border-radius: 30px;
+  margin-top: 25px;
+  height: 60px;
+  width: 20%;
+  cursor: pointer;
+  color: #fff;
+  background-color: #0080ff;
+  text-align: center;
+}
+
+.info-container .image {
+  width: 50%;
+  float: right;
+  margin-top: 35px;
+}
+
+.info-container .image img {
+  max-width: 100%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+input[type="text"] {
+  border: 8px solid black;
+  margin-bottom: 5px;
+  outline: none;
+  box-sizing: border-box;
+  transition: 0.3s;
+  border-radius: 30px;
+  border: 2px;
+  font-family: Source Sans Pro;
+  font-size: 16;
+  padding: 40px 60px;
+  width: 300px;
+  height: 45px;
+}
+
+textarea {
+  margin-bottom: 20px;
+  outline: none;
+  box-sizing: border-box;
+  transition: 0.3s;
+  border-radius: 30px;
+  border: 2px;
+  font-family: Source Sans Pro;
+  font-size: 16;
+  padding: 30px 80px;
+  width: 300px;
+  height: 150px;
+}
+
+.inputWithIcon textarea[type="text"] {
+  padding-left: 80px;
+  padding-top: 55px;
+}
+
+.inputWithIcon input[type="text"] {
+  padding-left: 80px;
+  padding-top: 35px;
+}
+
+.inputWithIcon {
+  position: relative;
+  margin-top: 10px;
+}
+
+.inputWithIcon input[type="text"],
+.inputWithIcon textarea {
+  border: 2px solid black;
+  padding: 20px; /* Adjust padding to create space for the icon */
+  padding-left: 40px; /* Adjust left padding to create space for the icon */
+}
+
+.inputWithIcon input[type="text"] {
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+.inputWithIcon textarea {
+  padding-left: 50px;
+}
+
+.inputWithIcon ion-icon {
+  position: absolute;
+  left: 8px;
+  top: 43%;
+  transform: translateY(-50%); /* Center the icon vertically */
+  padding: 10px; /* Adjust padding to position the icon */
+  color: black;
+  transition: 0.3s;
+}
+
+input[type="text"]::placeholder {
+  text-align: left;
+  color: black; /* Set placeholder text color */
+  font-style: normal; /* Make placeholder text italic */
+}
+
+.unstyled {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.centered {
+  width: 300px;
+  margin: auto;
+}
+input.largerCheckbox {
+  width: 15px;
+  height: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.tag {
+  text-decoration-color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.label {
+  text-align: center;
+}
+
+.book-now {
+  color: black;
+  background-color: yellow;
+}
+
+.section2 {
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features {
+  display: inline-grid;
+  grid-template-columns: 425px 425px;
+  grid-column-gap: 120px;
+  grid-row-gap: 60px;
+  grid-template-rows: 300px 300px;
+}
+.features :hover {
+  transform: scale(0.9);
+  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23); */
+}
+
+.features img {
+  height: 70px;
+}
+
+h3 {
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+p {
+  color: black;
+  font-size: 20px;
+  /* line-height: 1.5em; */
+  font-weight: 400;
+}

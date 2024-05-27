@@ -1,0 +1,139 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* above are applied as styles in class names */
+
+.transport-modes-page {
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  gap: 12px;
+}
+
+.tmp-details-section {
+  width: 66%;
+  height: 10%;
+  background-color: lightblue;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.262);
+}
+
+.tmp-details-section > span {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.tmp-action-buttons {
+  height: 15%;
+  width: 66%;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  justify-content: space-between;
+  box-shadow: 0px 2px 10px rgba(128, 128, 128, 0.262);
+}
+
+.tmp-action-buttons > button {
+  height: 70%;
+  width: 20%;
+  margin: 0px 10px;
+  border-radius: 20px;
+  font-size: 16px;
+  border: 0.3px solid rgba(128, 128, 128, 0.136);
+}
+
+/*Tmp Feed*/
+
+.tmp-feed {
+  height: 60%;
+  width: 66%;
+  background-color: whitesmoke;
+  padding: 10px;
+  gap: 12px;
+  border-radius: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-top: 20px;
+  box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.262);
+}
+
+.tmp-feed-cont {
+  width: 96%;
+  height: 150px;
+  border-radius: 20px;
+  background-color: white;
+  justify-content: flex-start;
+}
+
+.tmp-feed-cont-image {
+  width: 20%;
+  height: 99%;
+  background-color: beige;
+}
+
+.tmp-feed-cont-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: fit;
+}
+
+.tmp-feed-cont-details {
+  width: 50%;
+  height: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.tmp-feed-cont-details > h3 {
+  margin: 1px;
+  font-size: 24px;
+  color: black;
+}
+
+.tmp-feed-cont-details > span {
+  font-size: 16px;
+  color: rgb(30, 29, 29);
+}
+
+.tmp-feed-cont-button {
+  width: 30%;
+  height: 99%;
+}
+
+.tmp-feed-cont-button > button {
+  height: 50%;
+  width: 70%;
+  border-radius: 20px;
+  border: 0.5px solid rgba(128, 128, 128, 0.255);
+}
+
+/* Global Styles */
+
+button {
+  border: none;
+  outline: none;
+  transition: ease-in-out 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+  scale: 0.9;
+}
