@@ -12,7 +12,7 @@ from ticketing_routes import ticketing_bp  # Import the new ticketing blueprint
 from intasend import APIService
 
 # Replace with your actual IntaSend credentials
-token = "ISSecretKey_test_15624ded-5d26-4030-9025-6683e48dcf06"
+token = "ISSecretKey_test_598e119c-5c04-4bf7-8da4-8cf34acee4c9"
 publishable_key = "ISPubKey_test_f776b131-c148-4734-81ef-fed227f72018"
 service = APIService(token=token, publishable_key=publishable_key, test=True)
 
